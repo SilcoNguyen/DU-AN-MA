@@ -1,0 +1,99 @@
+{
+  "projects": [
+    {
+      "id": "pcp-update",
+      "name": "PCP Update",
+      "owner": "Hoang",
+      "startDate": "2026-09-01",
+      "endDate": "2026-09-18",
+      "progress": 90,
+      "status": "on-track",
+      "notes": "Process Control Plan revision for standard operating compliance.",
+      "tasks": [
+        {
+          "id": "audit-current-pcp",
+          "name": "Audit Current PCP",
+          "owner": "Hoang",
+          "startDate": "2026-09-01",
+          "endDate": "2026-09-06",
+          "progress": 100,
+          "status": "completed",
+          "notes": "Gap analysis completed."
+        },
+        {
+          "id": "parameter-review",
+          "name": "Parameter Review",
+          "owner": "Mai",
+          "startDate": "2026-09-05",
+          "endDate": "2026-09-12",
+          "progress": 100,
+          "status": "completed",
+          "notes": "Critical dimension tolerances approved."
+        },
+        {
+          "id": "documentation-release",
+          "name": "Documentation Release",
+          "owner": "Hoang",
+          "startDate": "2026-09-11",
+          "endDate": "2026-09-18",
+          "progress": 70,
+          "status": "on-track",
+          "notes": "Final sign-off from QA."
+        }
+      ]
+    },
+    {
+      "id": "new-production-line",
+      "name": "New Production Line",
+      "owner": "Team",
+      "startDate": "2026-09-08",
+      "endDate": "2026-10-15",
+      "progress": 40,
+      "status": "at-risk",
+      "notes": "New high-throughput CNC line installation and qualification.",
+      "tasks": [
+        {
+          "id": "equipment-delivery",
+          "name": "Equipment Delivery",
+          "owner": "Logistics",
+          "startDate": "2026-09-08",
+          "endDate": "2026-09-15",
+          "progress": 100,
+          "status": "completed",
+          "notes": "Machines arrived on factory floor."
+        },
+        {
+          "id": "line-positioning",
+          "name": "Line Positioning and Power",
+          "owner": "Facilities",
+          "startDate": "2026-09-14",
+          "endDate": "2026-09-25",
+          "progress": 50,
+          "status": "at-risk",
+          "notes": "Delay in 3-phase power drops."
+        },
+        {
+          "id": "dry-run-testing",
+          "name": "Dry Run Testing",
+          "owner": "Team",
+          "startDate": "2026-09-25",
+          "endDate": "2026-10-06",
+          "progress": 0,
+          "status": "not-started",
+          "notes": "Scheduled after wiring inspection."
+        },
+        {
+          "id": "qualification-signoff",
+          "name": "Qualification Sign-off",
+          "owner": "Mai",
+          "startDate": "2026-10-06",
+          "endDate": "2026-10-15",
+          "progress": 0,
+          "status": "not-started",
+          "notes": "Production readiness clearance."
+        }
+      ]
+    }
+  ],
+  "lastUpdated": "2026-09-07T13:55:44.459Z"
+}
